@@ -1,0 +1,6 @@
+/home/liangjinli/clion-2020.2.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/liangjinli/ORBSLAM2_detailed_comments
+Build type: Debug
+-- Using flag -std=c++11.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/liangjinli/ORBSLAM2_detailed_comments/cmake-build-debug

@@ -317,7 +317,7 @@ Frame::Frame(const cv::Mat &imGray, const double &timeStamp, ORBextractor* extra
 {
     // Frame ID
 	// Step 1 帧的ID 自增
-    mnId=nNextId++;
+    mnId=nNextId++;  //nNextId 全局区静态成员变量
 
     // Step 2 计算图像金字塔的参数 
     // Scale Level Info

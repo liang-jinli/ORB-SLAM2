@@ -565,7 +565,7 @@ ORBextractor::ORBextractor(int _nfeatures,		//指定要提取的特征点数目
     // Make sure we are symmetric
 	//这里其实是使用了对称的方式计算上四分之一的圆周上的umax，目的也是为了保持严格的对称（如果按照常规的想法做，由于cvRound就会很容易出现不对称的情况，
 	//同时这些随机采样的特征点集也不能够满足旋转之后的采样不变性了）
-	for (v = HALF_PATCH_SIZE, v0 = 0; v >= vmin; --v)
+	for (v = HALF_PATCH_SIZE, v0 = 0; v >= vmin; --v)  //这一步暂时没有看懂！
     {
         while (umax[v0] == umax[v0 + 1])
             ++v0;
