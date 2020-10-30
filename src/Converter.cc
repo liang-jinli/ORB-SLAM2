@@ -1,6 +1,6 @@
 /**
 * This file is part of ORB-SLAM2.
-*
+* test of github
 * Copyright (C) 2014-2016 Raúl Mur-Artal <raulmur at unizar dot es> (University of Zaragoza)
 * For more information see <https://github.com/raulmur/ORB_SLAM2>
 *
